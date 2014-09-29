@@ -1,0 +1,101 @@
+#imag 
+{
+
+width: 550px;
+
+}
+
+#imgsz
+{
+
+text-align: center;
+width:750px;
+
+}
+
+#ima
+{
+
+width: 80px;
+
+}
+
+#im
+{
+
+width: 90px;
+
+}
+#head
+{
+  display: block; 
+}
+
+.font 
+{
+font-family:'Overlock', sans-serif;
+font-size: 24px;
+
+}
+
+.font1 
+{
+font-family:'Overlock', sans-serif;
+font-size: 24px;
+}
+
+.color
+{
+	background-color: black;
+}
+
+/*.transparent
+{
+ opacity: 50%;
+}*/
+
+.shape
+{
+font-family:'Overlock', sans-serif;
+font-size: 30px;
+text-shadow: 7px 7px 7px #000000	
+}
+
+
+.size
+{
+
+font-size: 15px;
+
+}
+
+#barb
+{
+font-size: 40px;
+margin-bottom: 5px;
+
+}
+#oko
+{
+font-size: 20px;
+margin-top: 5px;	
+}
+
+#middle
+{
+
+font-family: 'Overlock', sans-serif; ;
+font-size: 24px;
+/*text-shadow: 3px 3px 3px red;*/
+text-align: center;
+
+}
+
+.content-section{
+	padding-top: 3%;
+}
+
+.btn-circle{
+	margin-top:10%;
+}
+
