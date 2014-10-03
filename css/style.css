@@ -92,10 +92,17 @@ text-align: center;
 }
 
 .content-section{
-	padding-top: 3%;
 }
 
 .btn-circle{
 	margin-top:10%;
 }
+
+.navbar
+{
+
+	padding: 0px;
+}
+
+
 
