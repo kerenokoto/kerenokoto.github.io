@@ -9,7 +9,7 @@ width: 550px;
 {
 
 text-align: center;
-width:750px;
+width:700px;
 
 }
 
@@ -104,5 +104,75 @@ text-align: center;
 	padding: 0px;
 }
 
+.change
+{
 
+	color: yellow;
+
+}
+
+.jstfy
+{
+
+text-align: justify;
+text-justify: inter-word;
+
+}
+.panel1{
+	margin:auto;
+	position: relative;
+}
+.card{
+	width:230px;
+	height:335px;
+	top: 100px;
+    left: 80px;
+	position:absolute;
+	border-radius:20px;
+	border:1px solid white;
+	backface-visibility:hidden;
+	transition:all 1s ease 0s;
+}
+
+.front {
+      z-index: 2;
+      background-image: url(../images/bnw.jpg);
+      background-size: 228px 335px;
+      background-repeat:no-repeat;
+  }
+
+ .back {
+      z-index: 1;
+      -webkit-transform: rotateY(-180deg);
+      -ms-transform: rotateY(-180deg);
+      -moz-transform: rotateY(-180deg);  
+      transform: rotateY(-180deg);  
+      background-image: url(../images/work.jpg);
+	  background-size: 280px 330px;
+	  background-repeat:no-repeat;
+  }
+
+ .panel1:hover .front {
+      z-index: 1;
+      -webkit-transform: rotateY(180deg);
+      -ms-transform: rotateY(180deg);
+      -moz-transform: rotateY(180deg);
+      transform: rotateY(180deg);
+  }
+
+ .panel1:hover .back {
+      z-index: 2;   
+      -webkit-transform: rotateY(0deg);
+      -ms-transform: rotateY(0deg);
+      -moz-transform: rotateY(0deg);
+      transform: rotateY(0deg);
+  }
+
+.change
+
+		{
+
+		font-size: 20px;
+		
+		}
 
